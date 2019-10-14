@@ -1,0 +1,41 @@
+{   
+    "Enname1":"Home",
+    "Enname2":"Video Stories",
+    "Enname3":"Offers",
+    "Enname4":"Success Stories",
+    "Enname5":"Services",
+    "Enname6":"About",
+    "Enname7":"Blog",
+    "Enname8":"Login",
+    "swiper":[
+        {
+            "swiperimg":"assets/images/img/WSTlogo1-01.png",
+            "swiperheaderEn":"Find A Mentor",
+            "swipermsgEn":"Break into Top Finance,Consulting and Tech FirmsStart Here"
+        },
+        {
+            "swiperimg":"assets/images/img/WSTlogo1-01.png",
+            "swiperheaderEn":"Find A Mentor",
+            "swipermsgEn":"Break into Top Finance,Consulting and Tech FirmsStart Here"
+        },
+        {
+            "swiperimg":"assets/images/img/WSTlogo1-01.png",
+            "swiperheaderEn":"Find A Mentor",
+            "swipermsgEn":"Break into Top Finance,Consulting and Tech FirmsStart Here"
+        },
+        {
+            "swiperimg":"assets/images/img/WSTlogo1-01.png",
+            "swiperheaderEn":"Find A Mentor",
+            "swipermsgEn":"Break into Top Finance,Consulting and Tech FirmsStart Here"
+        }
+    ],
+    "aboutname":"About",
+    "abouth3":"Wall Street Tequila",
+    "aboutmain":"Wall Street Tequila is a premier full-service career consulting company, focusing on helping students to fulfill various career developmental needs. Our mentors are highly experienced industry professionals from world-renowned finance and consulting firms (such as J.P. Morgan, BCG, Bain&Co.). WST has a global mentor network that covers New York, San Francisco, Chicago, Boston, Hong Kong, London and Shanghai, etc.",
+    "aboutvideo":"",
+    "Schoolsname":"Our mentees are from these schools",
+    "Schoolsmore":"And More...",
+    "Schoolscontact":"CONTACT US",
+    "Schoolswechat":"Follow Our Platform on WeChat",
+    "Schoolsteam":"Contact Our Team to Learn More"
+}

@@ -1,0 +1,43 @@
+{   
+    "Enname1":"首页",
+    "Enname2":"视频故事",
+    "Enname3":"提供",
+    "Enname4":"成功案例",
+    "Enname5":"服务",
+    "Enname6":"关于",
+    "Enname7":"博客",
+    "Enname8":"登录",
+    "swiper":[
+       {
+        "swiperimg":"assets/images/img/WSTlogo1-01.png",
+        "swiperheaderEn":"找个导师",
+        "swipermsgEn":"打入顶级金融、咨询和技术公司从这里开始"
+    },
+    {
+        "swiperimg":"assets/images/img/WSTlogo1-01.png",
+        "swiperheaderEn":"找个导师",
+        "swipermsgEn":"打入顶级金融、咨询和技术公司从这里开始"
+    },
+    {
+        "swiperimg":"assets/images/img/WSTlogo1-01.png",
+        "swiperheaderEn":"找个导师",
+        "swipermsgEn":"打入顶级金融、咨询和技术公司从这里开始"
+    },
+    {
+        "swiperimg":"assets/images/img/WSTlogo1-01.png",
+        "swiperheaderEn":"找个导师",
+        "swipermsgEn":"打入顶级金融、咨询和技术公司从这里开始"
+    }
+    ],
+    "aboutname":"关于",
+    "abouth3":"Wall Street Tequila",
+    "aboutmain":"Wall Street Tequila 是一家一流的全方位职业咨询公司，致力于帮助学生满足各种职业发展需求。我们的导师是来自世界知名金融和咨询公司（如摩根大通、波士顿咨询集团、贝恩公司）的经验丰富的行业专业人士。WST拥有全球导师网络，覆盖纽约、旧金山、芝加哥、波士顿、香港、伦敦和上海等。",
+    "aboutvideo":""
+    ,
+    "Schoolsname":"我们的学生来自这些学校",
+    "Schoolsmore":"还有更多…",
+    "Schoolscontact":"联系我们",
+    "Schoolswechat":"关注我们的微信平台",
+    "Schoolsteam":"联系我们的团队了解更多"
+    
+}

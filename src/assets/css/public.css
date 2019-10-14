@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,td{margin:0;padding:0;} 
+body{font:12px  "宋体"; word-wrap:break-word;}
+a,u,s,del{color:#666;text-decoration:none} 
+fieldset ,a img,.bor0 {border:0;}
+i,em,b{font-style:normal;font-weight:100;}
+li{list-style:none;}
+img{vertical-align:middle;} 
+table{border-collapse:collapse;}
+.ind2{text-indent:2em;}
+textarea{ resize:none}
+
+/*图片水平垂直居中*/
+.valign img{ vertical-align:middle}
+.valign{ text-align:center}
+.valign:after{ content:""; display:inline-block; vertical-align:middle; height:100%}
+/*解决margin-top的向上传递问题*/
+.clear:before{ content:""; display:table; }
+/*清除浮动*/
+.clear:after { content:""; clear:both; display:block; visibility:hidden;}
+/*溢出省略号*/
+.over{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ul li{ position:relative;}
+ul li img{width:100%; height:100%}
+ul li span{ position:absolute;left:0; right:0; bottom:0; opacity:1;height:51px}
+ul li p{position:absolute; left:0; right:0; bottom:0;}li内部元素span p 定位*/
+
+
+/*仿真花#header{  height:110px; background:#ac1616; border-bottom:1px solid #ac1f20}
+#header .logo{ float:left; margin-top:38px;}
+.header-r{ float:right; margin:2px 0 0 0; text-align:right}
+.header-r .header-r-t{ font:12px/4"";}
+.header-r .header-r-t a{ color:#fff;}
+.header-r .header-r-t span{ margin:0 8px 0 8px; height:12px; width:0; display: inline-block; vertical-align:middle; border-left:1px solid #9a0f12;}
+.header-r .search {  overflow:hidden;}
+.header-r .search input{ border:0; float:left;}
+.header-r .search  .btn{ width:30px; height:31px; background:#000 url(../3.png) no-repeat  right  }
+.header-r .search  .txt{ width:213px; height:31px; padding:0 5px; font:12px/31px""; }
+#nav{ height:46px; background:#930f11;  border: 1px solid #860707; margin-top:-2px; padding-top:-2px}
+#nav ul{ text-align:center;}
+#nav ul li{ float:left;  height:48px; border-left:1px solid #ac1f20; border-right:1px solid #860707; margin-top:-2px; padding-top:2px;}
+#nav ul li a{ color:#fff; font:12px/48px""; display:block; width:164px; color:#fff;}
+#nav ul li.first{ border-left:0;}
+#nav ul li.last{ border-right:0;}
+#banner{ background: url(../%E8%AF%BE%E6%97%B6/day06/%E4%BD%9C%E4%B8%9A/4.png) no-repeat; height:500px; }
+#news{ background:#ffffff; height:70px;}
+#news ul{ width:980px; border:1px solid #e5e5e5; margin-top:18px}
+#news b{ float:left; color:505050; font:12px/36px""; background:url(../%E8%AF%BE%E6%97%B6/day06/%E4%BD%9C%E4%B8%9A/6.png) no-repeat left; text-indent:14px; margin-left:6px }
+#news a { color:#505050; font:12px/36px""}
+#news span{ float:right; font:12px/36px""; margin-right:25px}
+#main{ height:360px; }
+ h3.title{ height:28px; font:12px/28px""; border-bottom:1px solid #d4d4d4;}
+ h3.title a{ color:#747474; float:right; font:8px/28px"";}
+#main .main-l{ float:left; width:612px;}
+#main .main-r{ float:right; width:348px;}
+#mainleft{ height:330px;background:#ffffff; width:617px; float:left; }
+#mainleft1{  margin:15px 40px 0 10px; width:613px;}
+#mainleft1 img{ float:left;}
+#mainleft1 p{ font:12px/2""; text-indent:24px;}
+.mainright ul{ margin-top:1px; height:333px;}
+.mainright ul li{}
+.mainright ul li .d1{ overflow:hidden; font:12px/29px"";
+ padding-left:16px;background: url(../%E8%AF%BE%E6%97%B6/day06/%E4%BD%9C%E4%B8%9A/9.png) no-repeat 1px;}
+.mainright ul li .d1 a{ float:left; color:#505050;}
+.mainright ul li .d1 span{ float:right; color:#999;}
+.mainright ul li .d2 { height:69px; display:none; overflow:hidden}
+.mainright ul li .d2 img{ float:left; margin:6px 12px 0 0}
+.mainright ul li .d2 .box { width:240px; float:left}
+.mainright ul li .d2 .box a { color:#505050; display:block; font:700 12px/2""; padding-left:16px; display:16px;background: url(../%E8%AF%BE%E6%97%B6/day06/%E4%BD%9C%E4%B8%9A/9.png) no-repeat 1px;}
+.mainright ul li .d2 .box p{ font:12px/18px""; color:#666;  }
+.mainright ul li:hover .d1{ display:none;}
+.mainright ul li:hover .d2{ display:block;}
+#pro{ height:213px; width:1000px}
+#pro .case ul{ overflow:hidden; margin:17px 0 25px 0}
+#pro .case ul li{ float:left;}
+#pro .case ul li a{ display:block; width:150px; margin:0 25px; }
+#pro .case ul li a img{ display:block; }
+#pro .case ul li a p{ font:12px/42px""; color:#505050; text-align:center;}
+#friend{}
+#friend p{}
+#friend p a{ font:12px/62px""; color:#505050; margin-right:16px}
+#footer{ height:158px; width:1263px; background:#960f10; text-align:center; padding-top:4px; color:#fff;}
+#footer .footert a{ font:12px/60px""; color:#fff;}
+#footer .footer span{ margin:0 5px 0 7px;}
+#footer p{ font: 12px/21px;}*/
+
+
+
+
+
+
+
+
+
+/*ul{ border-bottom:8px solid #f30; overflow:hidden}
+ul li{ float:left; width:100px; height:20px; text-align:center; }
+ul li span{ display:block; background:#ccc; color:#333}
+ul li a{ display:none; background:#f30; color:#fff}
+ul li:hover span{ display:none}
+ul li:hover a{ display:block}*/
+
+
+
+/*#left{ width:210px; height:475px; background:#c6e8e9; float:left;}
+#right{ width:1000px; height:475px; background:#ffffff}
+#right ul{ height:473px; display:inline; overflow:hidden}
+
+#right ul li{ float:left; width: 180px; border-bottom:1px #ededed solid; height:235px; border-right:1px solid #ededed}
+#right ul li div{ vertical-align:middle; height:170px;  text-align:center; border-bottom:1px solid #ededed; }
+img { vertical-align:middle; }
+#right ul i{ display:inline-block; vertical-align:middle; height:100%}
+#right p{   font:12px/18px""; width:156px; margin-left:17px; height:36px; margin-top:8px; }
+#right span{ color:#e63a38; font:14px/20px""; margin-left:17px; display:block}
+#right a{ display:block}*//*京东页面*/
+/*body{ text-align:center}
+li{ list-style:none}
+ul{  height:32px; display:inline-block;}
+ul span{ display:block; height:100%; font:16px/2""; background:#000; color:#FFF}
+ul li{ float:left; width:120px; margin:0 1px }
+img { display:none; width:100%; height:138px}
+ul li:hover img{ display:block;}一排图片先隐藏接触弹出*/
+
+/*溢出隐藏省略号
+.over{overflow:hidden; text-overflow:ellipsis;white-space:nowrap;}
+  */
+  /*图片垂直水平居中
+.valign{ text-align: center;}
+.valign{ vertical-align:middle;}*/
+/*
+.box{ width:300px; height:200px;  position: relative;}
+.box  img{ width:100%; height:100%;}
+.box p{ position:absolute; left:0; bottom:0; right:0; opacity:0.5; height:32px; text-align:center; color:#000; background: #666; color:#fff; margin:0 }
+.box span{ background:#000; height:32px; position: absolute; left:0; right:0; bottom:0; opacity:.5;} 文字图片透明*/

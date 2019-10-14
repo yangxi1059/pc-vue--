@@ -1,0 +1,318 @@
+/* footer */
+.footer{
+    margin-top: 44px;
+    height: 80px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #FAFAFA ;
+}
+/* footer左右站位块 */
+.footer-block1{
+    -webkit-box-flex: 13.4;
+        -ms-flex: 13.4;
+            flex: 13.4;
+    width: 100%;
+}
+.footer-block2{
+    -webkit-box-flex: 12.9;
+        -ms-flex: 12.9;
+            flex: 12.9;
+    width: 100%;
+}
+/* footer主体 */
+.footer-main{
+    margin: 0 auto;
+    -webkit-box-flex: 72.4;
+        -ms-flex: 72.4;
+            flex: 72.4;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 1100px;
+}
+/* footer内容区 */
+.footer-main_in {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+/* 共5块区域的flex按比例分配 */
+.footer-main_block1{
+    /* flex: 240; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: auto;
+
+}
+/* footer Icon图 */
+.footer-main_block1 > .footer-main_in > .footer-main_in__img{
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-top: 28px;
+    background:url("../../assets/images/icons/weibo.png") no-repeat;
+    background-size: cover;
+}
+/* footer每块文字区 */
+.footer-main_block1 > .footer-main_in > .footer-main_in__span{
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    width: 100%;
+    overflow: hidden;                                    
+    font-family:NotoSansHans-Medium;
+    font-size: 14px;
+    line-height: 80px;
+    color: #484848;
+    letter-spacing: 0;
+    margin-left: 5px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    /* width:100%; */
+    min-width: 117px;
+}
+.footer-main_block2{
+    /* flex: 240; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: auto;
+
+}
+.footer-main_block2 > .footer-main_in > .footer-main_in__img{
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-top: 28px;
+    background:url("../../assets/images/icons/fenxiang.png") no-repeat;
+    background-size: cover;
+}
+.footer-main_block2 > .footer-main_in > .footer-main_in__span{
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    width: 100%;
+    overflow: hidden;                            
+    font-family:NotoSansHans-Medium;
+    font-size: 14px;
+    line-height: 80px;
+    color: #484848;
+    letter-spacing: 0;
+    margin-left: 5px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    /* width:100%; */
+    min-width: 117px;
+}
+.footer-main_block3{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* flex: 318; */
+    margin-right: auto;
+
+}
+.footer-main_block3 > .footer-main_in > .footer-main_in__img{
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-top: 28px;
+    background:url("../../assets/images/icons/emailFilled.png") no-repeat;
+    background-size: cover;
+}
+.footer-main_block3 > .footer-main_in > .footer-main_in__span{
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    width: 100%;
+    /* overflow: hidden;                                     */
+    font-family: 'NotoSansHans-Medium';
+    font-size: 14px;
+    line-height: 80px;
+    color: #484848;
+    letter-spacing: 0;
+    margin-left: 5px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    /* width:100%; */
+    min-width: 195px;
+}
+.footer-main_block4{
+    /* flex: 177; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: auto;
+
+}
+.footer-main_block4 > .footer-main_in > .footer-main_in__img{
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-top: 28px;
+    background:url("../../assets/images/icons/dianhua.png") no-repeat;
+    background-size: cover;
+}
+.footer-main_block4 > .footer-main_in > .footer-main_in__span{
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    width: 100%;
+    -ms-flex-positive: 1;
+        flex-grow: 1;
+    font-family: 'NotoSansHans-Medium';
+    font-size: 14px;
+    line-height: 80px;
+    color: #484848;
+    letter-spacing: 0;
+    margin-left: 5px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    min-width: 91px;
+}
+.footer-main_block5{
+    /* flex: 356; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.footer-main_block5 > .footer-main_in > .footer-main_in__img{
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-top: 28px;
+    background:url("../../assets/images/icons/dingwei.png") no-repeat;
+    background-size: cover;
+}
+.footer-main_block5 > .footer-main_in > .footer-main_in__p{
+    -webkit-box-flex: 1;              /* OLD - iOS 6-, Safari 3.1-6 */                 /* OLD - Firefox 19- */                     /* Chrome */
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 260px;
+    font-family:NotoSansHans-Medium;
+    height: 48px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #484848;
+    letter-spacing: 0;
+    margin-left: 5px;
+    margin-top: 20px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+@media (max-width: 1296px) {
+      /* footer */
+      .footer {
+        margin-top: 18px;
+        height: 120px;
+        width: 100%;
+    }
+    .footer-block1 {
+        flex:none;
+        width: 0px;
+    }
+    .footer-block2 {
+        flex:none;
+        width: 0px;
+    }
+    .footer-main {
+        margin: 0 0 0 0;
+        flex: none;
+        height: 100%;
+        display: block;
+    }
+    .footer-main_block1{
+        float: left;
+        margin-left: 431px;
+        margin-right: 124px;
+    }
+    .footer-main_block2{
+    }
+    .footer-main_block3{
+        float: left;
+        margin-left: 191px;
+        width: 280px;
+    }
+    .footer-main_block4{
+        float: left;
+        margin-right: 54.2px;
+        margin-left: 58.5px;
+        width: 180px;
+    }
+    .footer-main_block5{
+        min-width: 335.3px;
+    }
+    .footer-main_block1 > .footer-main_in > .footer-main_in__img {
+        margin-top: 26px;
+    }
+    .footer-main_block1 > .footer-main_in > .footer-main_in__span {
+        margin-left: 10px;
+        margin-top: 28px;
+        line-height: 21px;
+        display: block;
+    }
+    .footer-main_block2 > .footer-main_in > .footer-main_in__img {
+        margin-top: 26px;
+        line-height: 21px;
+    }
+    .footer-main_block2 > .footer-main_in > .footer-main_in__span {
+        margin-left: 10px;
+        margin-top: 28px;
+        line-height: 21px;
+        display: block;
+    }
+    .footer-main_block3 > .footer-main_in > .footer-main_in__img {
+        margin-top: 24px;
+        line-height: 21px;
+    }
+    .footer-main_block3 > .footer-main_in > .footer-main_in__span {
+        margin-left: 10px;
+        margin-top: 24px;
+        line-height: 21px;
+        display: block;
+    }
+    .footer-main_block4 > .footer-main_in > .footer-main_in__img {
+        margin-top: 24px;
+        line-height: 21px;
+    }
+    .footer-main_block4 > .footer-main_in > .footer-main_in__span {
+        margin-left: 10px;
+        margin-top: 24px;
+        line-height: 21px;
+        display: block;
+    }
+    .footer-main_block5 > .footer-main_in > .footer-main_in__img {
+        margin-top: 24px;
+        line-height: 21px;
+    }
+    .footer-main_block5 > .footer-main_in > .footer-main_in__p{
+        margin-left: 10px;
+        margin-top: 16px;
+        line-height: 21px;
+        display: block;
+    }
+    }

@@ -1,0 +1,246 @@
+@font-face{
+    font-family:"Droid Serif";
+    src: url(../../assets/font/fontdroid/DroidSerif-Italic.ttf)
+}
+    body{
+        min-width: 1280px;
+    }
+    .header{
+        user-select:none;
+        min-width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        z-index: 10;
+        background: #fff;  
+    }
+    .header-top{
+        -webkit-box-flex: 59.5;              /* OLD - iOS 6-, Safari 3.1-6 */                 /* OLD - Firefox 19- */                     /* Chrome */
+        -ms-flex: 59.5;
+        flex: 59.5;
+        min-width: 1100px;
+        padding: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
+    }
+    /* 站位块 */
+    .header-block1{
+       width: 247px;
+    }
+    .header-block2{
+       width: 531px;
+    }
+    .header-block2-lang{
+        font-size: 20px;
+        line-height: 70px;
+        margin-left: 40px;
+        cursor: pointer;
+    }
+    /* 主题部分 */
+    .header-top_nav{
+        -webkit-box-flex: 1;              /* OLD - iOS 6-, Safari 3.1-6 */                 /* OLD - Firefox 19- */                     /* Chrome */
+        -ms-flex: 1;
+        flex: 1;
+        /* width: 977px; */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    /* 主题左侧图标 */
+    .header-top_icon{
+        width: 103px;
+        height: 58px;
+        margin: 6px 0;
+    }
+    .header-top_icon > a{
+        display: block;
+    }
+    .header-top_icon img{
+        width: 100%;
+        height: 58px;
+    }
+    /* 主题中间nav */
+    .header-top_nav > .header-top_nav__ul{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        max-width: 836px;
+    }
+    .header-top_nav__ul > .header-top_nav__ul--li{
+        white-space:nowrap;
+        position: relative;
+        margin-right: auto;
+        list-style:none;
+        font-size: 20px; 
+        line-height: 70px;
+        font-family:NotoSansHans-Regular;
+        letter-spacing: -0.1px;
+    }
+    .header-top_nav__ul > .header-top_nav__ul--li a{
+        font-family:NotoSansHans-Regular;
+        font-size: 20px;
+        color: #2B2B2B;
+        letter-spacing: -0.1px;
+        cursor: pointer;
+        /* display:block; */
+        /* white-space:nowrap; */
+        /* overflow:hidden; */
+        /* text-overflow:ellipsis; */
+        letter-spacing: -0.1px;
+    }
+    .header-top_nav--img{
+        margin-left:26px;
+        margin-top:19px;
+        display: block;
+        width: 32px;
+        height: 32px;
+        background:url("../../assets/images/icons/登录.png") no-repeat;
+        background-size: cover;
+    }
+    .header-top_nav__ul > .header-top_nav__ul--lastli2{
+        margin-right: 0;
+    }
+
+    .header-nav-block{
+       width: 62px;
+    }
+    .header-top_nav__ul{
+        -webkit-box-flex:43.7;              /* OLD - iOS 6-, Safari 3.1-6 */                 /* OLD - Firefox 19- */                     /* Chrome */
+        -ms-flex: 43.7;
+        flex: 43.7;
+        
+    }
+    .header-top_nav__ul--lastli{
+        /* -webkit-box-flex: 9.2;              /* OLD - iOS 6-, Safari 3.1-6 */
+        /* -moz-box-flex: 9.2;                 OLD - Firefox 19- */
+        /* -webkit-flex: 9.2;                     Chrome */
+        /* -ms-flex: 9.2; */ 
+        /* flex: 9.2; */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .header-top_nav__ul--span{
+        font-size: 20px;
+        line-height: 70px;
+        margin-left: 26px;
+    }
+    .header-top_nav__ul--login{
+        font-family: NotoSansHans-Regular;
+        font-size: 21px;
+        color: #2B2B2B;
+        letter-spacing: -0.1px;
+        line-height: 70px;
+    }
+    /* nav下拉菜单弹出框 */
+    .header-top_nav__ul--li > .header-top_li__ul{
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        left: -10px;
+        z-index: 999;
+        min-width: 200px;
+        border-radius: 4px;
+        -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+                box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        padding: 5px 0;
+        margin-top: 2px;
+        background-color: #ffffff;
+    }
+    .header-top_nav__ul--li > .header-top_li__ul > .header-top_li__ul--li{
+        width: 190px;
+        color: #000;
+        background: #fff;
+        margin: 0 5px;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        display: block;
+        /* margin: 0px 5px; */
+        
+    }
+    /* 下拉菜单的a标签样式 */
+    .header-top_nav__ul--li > .header-top_li__ul > .header-top_li__ul--li a{
+        white-space:normal;
+        width:190px;
+        color: #2e2e2e;
+        line-height: 22px;
+        padding: 10px 10px;
+        font-family: "Droid Serif",sans-serif;
+        font-size: 14px;
+        display: block;
+        position: relative;
+        text-decoration: none;
+        word-wrap:break-word;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 0.5px;
+    }
+    /* 主题右侧登录 */
+    .header-top_login{
+        -webkit-box-flex: 4.5;              /* OLD - iOS 6-, Safari 3.1-6 */                 /* OLD - Firefox 19- */                     /* Chrome */
+        -ms-flex: 4.5;
+        flex: 4.5;
+        font-family:NotoSansHans-Regular;
+        font-size: 20px;
+        color: #2B2B2B;
+        letter-spacing: -0.1px;
+        line-height: 70px;
+    }
+    .header-top_login a{
+        font-family:NotoSansHans-Regular;
+        font-size: 20px;
+        color: #2B2B2B;
+        letter-spacing: -0.1px;
+        line-height: 70px;
+    }
+    
+    .header-top_login{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .header-top_login__img{
+        display: block;
+        margin-top: 19px;
+        width: 32px;
+        height: 32px;
+        background: #000;
+    }
+    /* 点击改变颜色active */
+    .header-top_nav__ul > .header-top_nav__ul--li > .active {
+        color: #7d0022;
+    }
+    .header-top_nav > .header-top_nav__ul > .header-top_nav__ul--li > a.clickactive{
+        color: #7d0022 !important;
+    }
+    
+    @media (max-width: 1296px) {
+         /* header */
+       .header-block1{
+        width: 29px;
+   }
+   .header-top{
+       -webkit-box-flex: 1;
+           -ms-flex: 1;
+               flex: 1;
+   }
+   .header-block2{
+        width:154px;
+    }
+    .header-nav-block{
+        -webkit-box-flex: 0;
+            -ms-flex: none;
+                flex: none;
+        width: 18px;
+    }
+    }
