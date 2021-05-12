@@ -15,7 +15,7 @@
     "express": "^4.17.1",
     "jquery": "^3.4.1",
     "postcss": "^7.0.18",
-    "swiper": "^5.0.3",
+    "swiper": "^6.5.1",
     "vue": "^2.6.10",
     "vue-cookies": "^1.5.13",
     "vue-hooks": "^0.3.2",
