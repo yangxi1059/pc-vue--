@@ -14,7 +14,7 @@
     "core-js": "^2.6.5",
     "express": "^4.17.1",
     "jquery": "^3.4.1",
-    "postcss": "^7.0.18",
+    "postcss": "^7.0.36",
     "swiper": "^5.0.3",
     "vue": "^2.6.10",
     "vue-cookies": "^1.5.13",
